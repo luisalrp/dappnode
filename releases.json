@@ -1,0 +1,10 @@
+{
+  "1.0.0": {
+    "hash": "/ipfs/QmRPmuEouAwg1JVUUxbq7oqVAV9j1sS55jpL56t6NiJ2n2",
+    "type": "manifest",
+    "uploadedTo": {
+      "dappnode": "Sat, 28 Mar 2020 17:55:41 GMT"
+    },
+    "link": "http://my.dappnode/#/sdk/publish/r=x-core.public.dappnode.eth&v=1.0.0&h=%2Fipfs%2FQmRPmuEouAwg1JVUUxbq7oqVAV9j1sS55jpL56t6NiJ2n2&d=0x9913a09B9bAdcA3381DeE4F6Ef5E43CAa25D66e6"
+  }
+}

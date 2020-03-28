@@ -1,0 +1,43 @@
+{
+  "name": "x-core.public.dappnode.eth",
+  "version": "1.0.0",
+  "description": "DAppNode package for X Core",
+  "type": "service",
+  "image": {
+    "restart": "always",
+    "volumes": [
+      "/home/$USER/.xcore:/root/.xcore"
+    ],
+    "ports": [
+      "45555:45555"
+    ],
+    "environment": [
+      "INXT=0x0123456789012345678901234567890123456789",
+      "SIZE=50GB",
+      "RPC_PORT=45555",
+      "RPC_ADDRESS=45.45.45.45"
+    ],
+    "path": "x-core.public.dappnode.eth_1.0.0.tar.xz",
+    "hash": "/ipfs/QmfQ81f1k43M8PYcUgeEKns4d6teHQaYGJiuK2ZGkq6TfM",
+    "size": 105029300
+  },
+  "author": "internxt (hello@internxt.com)",
+  "keywords": [
+    "x-core",
+    "xcore",
+    "cloud",
+    "internxt"
+  ],
+  "homepage": {
+    "homepage": "https://github.com/internxt/X-Core/blob/master/README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/internxt/X-Core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/internxt/X-Core/issues"
+  },
+  "license": "GPL-3.0",
+  "avatar": "/ipfs/QmbeyHF2e9Szsxcv6Y8a8xFz5g5v7YLLX7TqZn7SsZNpXx"
+}

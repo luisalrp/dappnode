@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  x-core.public.dappnode.eth:
+    build: ./build0
+    restart: always
+    volumes:
+      - '/home/$USER/.xcore:/root/.xcore'
+    ports:
+      - '45555:45555'
+    environment:
+      - INXT=0x0123456789012345678901234567890123456789
+      - SIZE=50GB
+      - RPC_PORT=45555
+      - RPC_ADDRESS=45.45.45.45
+    image: 'x-core.public.dappnode.eth:1.0.0'
