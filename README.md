@@ -6,7 +6,7 @@ With package's name or ipfs direction you could install it using two diferents m
 
 - [Install by package name](http://my.dappnode/#/installer/x-core.public.dappnode.eth)
 
-- If you could not find it by package's name use: ipfs/QmcoVNmKpR3hBz975CxbQWDiNwHrUcq61kicFUQoR1Pv4E
+- [Install by ipfs direction](http://my.dappnode/#/installer/%2Fipfs%2FQmRPmuEouAwg1JVUUxbq7oqVAV9j1sS55jpL56t6NiJ2n2)
 
 ## Build package
 You must have installed [dappnodesdk](https://github.com/dappnode/DAppNodeSDK/wiki/DAppNode-SDK-tutorial) tool to continue.
