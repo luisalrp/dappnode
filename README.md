@@ -22,5 +22,5 @@ Run the following commad to publish the new DApp package:
 ```
     > RELEASE_TYPE=$RELEASE_TYPE \
       DEVELOPER_ADDRESS=$DEVELOPER_ADDRESS \
-      dappnodesdk build
+      dappnodesdk publish
 ```
