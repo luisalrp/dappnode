@@ -1,10 +1,11 @@
 version: '3.4'
+
 services:
-  x-core.public.dappnode.eth:
+  internxt-core.public.dappnode.eth:
     build: ./build
     restart: always
     volumes:
-      - '/home/$USER/.xcore:/root/.xcore'
+      - 'internxt_core_config:/root/.xcore'
     ports:
       - '45555:45555'
     environment:
@@ -12,4 +13,7 @@ services:
       - SIZE=50GB
       - RPC_PORT=45555
       - RPC_ADDRESS=45.45.45.45
-    image: 'x-core.public.dappnode.eth:1.0.0'
+    image: 'internxt-core.public.dappnode.eth:1.0.0'
+
+volumes:
+  internxt_core_config: {}

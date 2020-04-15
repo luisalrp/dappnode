@@ -37,4 +37,4 @@ file_env 'RPC_ADDRESS'
 # Starting daemon
 /bin/sh /root/start.sh
 
-while true; do xcore status && sleep 60; done
+while true; do clear && xcore status && sleep 60; done

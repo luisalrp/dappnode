@@ -1,0 +1,23 @@
+{
+    "ui:order": ["rpcAddress", "rpcPort", "size", "inxt", "internxtDataMountpoint"],
+    "rpcAddress": {
+        "errorMessages": {
+            "pattern": "Must be a valid address"
+        }
+    },
+    "rpcPort": {
+        "errorMessages": {
+            "pattern": "Must be a valid port"
+        }
+    },
+    "size": {
+        "errorMessages": {
+            "pattern": "The storage space needs to be in the form: `xGB` (without spaces), where the x is the number of Gigabytesbytes allocate"
+        }
+    },
+    "inxt": {
+        "errorMessages": {
+            "pattern": "Must be a valid address token (0x1fd16a...)"
+        }
+    }
+}

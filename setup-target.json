@@ -1,0 +1,21 @@
+{
+    "rpcAddress": {
+        "type": "environment",
+        "name": "RPC_ADDRESS"
+    },
+    "rpcPort": {
+        "type": "environment",
+        "name": "RPC_PORT"
+    },
+    "size": {
+        "type": "environment",
+        "name": "SIZE"
+    },
+    "inxt": {
+        "type": "environment",
+        "name": "INXT"
+    },
+    "internxtDataMountpoint": {
+        "type": "allNamedVolumesMountpoint"
+    }
+}

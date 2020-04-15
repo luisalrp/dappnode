@@ -1,0 +1,39 @@
+{
+    "description": "This setup wizard will help you start.",
+    "type": "object",
+    "required": ["rpcAddress", "rpcPort", "size", "inxt"],
+    "properties": {
+      "rpcAddress": {
+        "type": "string",
+        "title": "RPC Address",
+        "description": "Define your public IP address",
+        "pattern": "^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
+      },
+      "rpcPort": {
+        "type": "string",
+        "title": "RPC Port",
+        "description": "Define the port. This port will be forwarded in your router",
+        "pattern": "^([0-9]{1,4}|[1-5][0-9]{4}|6[0-4][0-9]{3}|65[0-4][0-9]{2}|655[0-2][0-9]|6553[0-5])$"
+      },
+      "size":{
+        "type": "string",
+        "title": "Storage space",
+        "description": "How much disk space you want to allocate to the Internxt network.",
+        "pattern": "^[0-9]*(\\.[0-9]*)?[Gg][Bb]$",
+        "customErrors": {
+          "pattern": "The storage space needs to be in the form: `xGB` (without spaces), where the x is the number of Gigabytesbytes allocate"
+        }
+      },
+      "inxt": {
+        "type": "string",
+        "title": "INXT Token",
+        "description": "An Ethereum wallet address where you will receive Internxt token payouts for running the node.\n\nIf you don't have an Ethereum address, learn [how to obtain a valid payout address](https://support.storj.io/hc/en-us/articles/360026611692-How-do-I-hold-STORJ-What-is-a-valid-address-or-compatible-wallet-).\n\n ⚠️**Warning: an exchange address is not a valid address**⚠️",
+        "pattern": "^0x[a-fA-F0-9]{40}$"
+      },
+      "internxtDataMountpoint": {
+        "type": "string",
+        "title": "Storage data mountpoint",
+        "description": "Use this option if you want to store the Storage data in a separate drive. Make sure to have sufficient free space according to the Storage space parameter"
+      }
+    }
+  }
