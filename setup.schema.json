@@ -27,7 +27,7 @@
       "inxt": {
         "type": "string",
         "title": "INXT Token",
-        "description": "An Ethereum wallet address where you will receive Internxt token payouts for running the node.\n\nIf you don't have an Ethereum address, learn [how to obtain a valid payout address](https://support.storj.io/hc/en-us/articles/360026611692-How-do-I-hold-STORJ-What-is-a-valid-address-or-compatible-wallet-).\n\n ⚠️**Warning: an exchange address is not a valid address**⚠️",
+        "description": "An Ethereum wallet address where you will receive Internxt token payouts for running the node.\n\nIf you don't have an Ethereum address, learn [how to obtain a valid payout address with MetaMask](https://medium.com/publicaio/a-complete-guide-to-using-metamask-updated-version-cd0d6f8c338f).\n\n ⚠️**Warning: an exchange address is not a valid address**⚠️",
         "pattern": "^0x[a-fA-F0-9]{40}$"
       },
       "internxtDataMountpoint": {
